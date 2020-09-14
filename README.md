@@ -15,8 +15,7 @@ The goal is to reproduce the same functions as bitcanna-cli using RPC.
 
 ## Demonstration
 
-![BitCannawebinterface](https://i.imgur.com/BuynnEA.png)
-![BitCannawebinterface](https://i.imgur.com/pHEWIv2.png)
+![BitCannawebinterface](https://i.imgur.com/NmNn25S.png)
 
 ## Require
 
@@ -27,7 +26,7 @@ The goal is to reproduce the same functions as bitcanna-cli using RPC.
  
  ## Installation
  
- Soon! 
+[Go on wiki install page](https://github.com/atmoner/bitcanna-cli-to-web/wiki/Installation) 
 
  ## Development setup
  
@@ -35,14 +34,11 @@ The goal is to reproduce the same functions as bitcanna-cli using RPC.
  
  ## To Do 
  - [x] Main stats
- - [x] Console (like bitcanna-cli)
  - [x] Admin account
- - [ ] Increased security 
+ - [x] Increased security 
    - [x] Admin login  
    - [x] Anti [CSRF](https://portswigger.net/web-security/csrf) 
-   - [x] Check ip (only one authorize, the owner of the wallet)
-   - [ ] Limit number of login attempts (anti bruteforce)
-   - [ ] Encrypt json config file
+   - [x] Check ip (only one authorize, the owner of the wallet)  
    
  ## Meta
  
