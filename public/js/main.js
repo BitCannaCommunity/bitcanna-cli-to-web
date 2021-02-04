@@ -46,7 +46,8 @@ $.get("/listtransactions", function(data, status){
 	const dataReversed = data.slice(-10).reverse();
 	
 	dataReversed.forEach(function(item){	
-		var markup = "<tr><td>" + item.date + "</td><td>" + item.txid + "</td><td>" + item.amout + "</td></tr>"
+		//var markup = "<tr><td>" + item.date + "</td><td>" + item.txid + "</td><td>" + item.amout + "</td></tr>"
+		var markup = "<tr><td>" + item.date + "</td><td><a target='_blank' href='https://explorer.bitcanna.io/tx/" + item.txid + "'>" + item.txid + "</a></td><td>" + item.amout + "</td></tr>"
 		$("#tx tbody").append(markup);		 
 	});
  
